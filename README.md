@@ -4,6 +4,8 @@
 
 ## Introduction
 
+FORKED FROM vsivsi:file-collection version 1.3.8 to fix issue with "self signed certificate in certificate chain" error when trying to use ssl=true in the MONGO_URL connection setting
+
 file-collection is a Meteor.js package that cleanly extends Meteor's Collection metaphor to efficiently manage collections of files and their data. File Collections are fully reactive, and if you know how to use Meteor Collections, you already know most of what you need to begin working with this package.
 
 Major features:

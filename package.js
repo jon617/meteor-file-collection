@@ -8,9 +8,9 @@ var currentVersion = '1.3.8';
 
 Package.describe({
   summary: 'Collections that efficiently store files using MongoDB GridFS, with built-in HTTP support',
-  name: 'vsivsi:file-collection',
+  name: 'jon617:file-collection',
   version: currentVersion,
-  git: 'https://github.com/vsivsi/meteor-file-collection.git'
+  git: 'https://github.com/jon617/meteor-file-collection.git'
 });
 
 Npm.depends({
@@ -44,7 +44,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function (api) {
-  api.use('vsivsi:file-collection@' + currentVersion, ['server', 'client']);
+  api.use('jon617:file-collection@' + currentVersion, ['server', 'client']);
   api.use('coffeescript@1.12.3_1', ['server', 'client']);
   api.use('tinytest@1.0.12', ['server', 'client']);
   api.use('test-helpers@1.0.11', ['server','client']);
